@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Landingpage = () => {
     return (
-        <div id='landingpage' className="flex flex-col justify-between mt-20">
+        <div id='landingpage' className=" mt-20 flex flex-col justify-between min-h-screen "> 
             <div className="relative bg-customBlue min-h-screen overflow-hidden lg:px-8" style={{ fontFamily: '"Darker Grotesque"' }}>
                 <div className="container mx-auto flex flex-col p-6 md:p-10
                     lg:flex-row items-center justify-between space-y-4 mt-6

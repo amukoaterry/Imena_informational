@@ -66,10 +66,6 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Image src="/images/navbarlogo.png" alt="Logo" width={120} height={140} className='mt-8'/>
           </div>
-
-
-
-
           <div className="sm:hidden">
             <button
               onClick={toggleMenu}
@@ -104,8 +100,7 @@ const Navbar = () => {
               href="#features"
               onClick={(e) => handleScroll(e, 'features')}
               className={`px-4 py-2 text-xl text-black hover:text-[#644877] hover:font-bold hover:border-b-2 w-fit hover:border-[#644877] cursor-pointer 
-              ${activeSection === 'about' ? 'font-bold border-b-2 border-black' : ''}`}
-            >
+              ${activeSection === 'about' ? 'font-bold border-b-2 border-black' : ''}`} >
              Features
             </a>
             
@@ -118,8 +113,8 @@ const Navbar = () => {
               About
             </a>
             <a
-              href="#testimonials"
-              onClick={(e) => handleScroll(e, 'testimonials')}
+              href="#team"
+              onClick={(e) => handleScroll(e, 'team')}
               className={`px-4 py-2 text-xl text-black hover:text-[#644877] hover:font-bold hover:border-b-2 w-fit hover:border-[#644877] cursor-pointer 
               ${activeSection === 'testimonials' ? 'font-bold border-b-2 border-[#644877]' : ''}`}
             >
