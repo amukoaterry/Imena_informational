@@ -121,16 +121,16 @@ const Navbar = () => {
               Team
             </a>
             <a
-              href="#faqs"
-              onClick={(e) => handleScroll(e, 'faqs')}
+              href="#faq"
+              onClick={(e) => handleScroll(e, 'faq')}
               className={`px-4 py-2 text-xl text-black  hover:text-[#644877] hover:font-bold hover:border-b-2 w-fit hover:border-[#644877] cursor-pointer
                ${activeSection === 'faqs' ? 'font-bold border-b-2 border-[#644877]' : ''}`}
             >
               FAQs
             </a>
             <a
-              href="#contact"
-              onClick={(e) => handleScroll(e, 'contact')}
+              href="#footer"
+              onClick={(e) => handleScroll(e, 'footer')}
               className={`px-4 py-2 text-xl text-black hover:text-[#644877] hover:font-bold hover:border-b-2 w-fit hover:border-[#644877] cursor-pointer 
               ${activeSection === 'contact' ? 'font-bold border-b-2 border-[#644877]' : ''}`}
             >
